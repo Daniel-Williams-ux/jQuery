@@ -64,6 +64,13 @@ integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh
   });
 </script>
 
+<script>
+  $(document).ready(function() {
+    $("#target2").clone().appendTo("#right-well");//Did you notice this involves sticking two jQuery functions together? This is called function chaining and it's a convenient way to get things done with jQuery.
+    $("#target5").clone().appendTo("#left-well");
+  });
+</script>
+
   
 </body>
 </html>
